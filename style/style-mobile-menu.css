@@ -31,14 +31,27 @@
     
 }
 
-.mobile-menu {
+.page__mobile-menu {
     position: absolute;
-    top 0;
-    left 0;
+    top: 0;
+    left: 0;
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 320px;
     box-shadow: 16px 0 52px 0 rgba(69,79,126,0.5);
     height: 100%;
+    min-height: 750px;
     background-color: white;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .mobile-menu-header {
@@ -119,7 +132,7 @@
 }
 
 .page__footer {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .e-mail {
